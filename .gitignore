@@ -1,0 +1,67 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.seed
+
+# Build output
+dist/
+build/
+out/
+.cache/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Runtime data
+*.sqlite
+*.db
+*.pid
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary/system files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# macOS Finder
+.AppleDouble
+.LSOverride
+
+# Ignore local node global installs (if any)
+node_modules_local/
+
+# Optional: ignore package lock if you don't want to commit it
+# package-lock.json
+# yarn.lock
+
+# Serve / static tool caches
+.serve/
+
+# Misc
+coverage-final.json
